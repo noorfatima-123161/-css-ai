@@ -181,5 +181,4 @@ css
   }
 }
 
-VIDEO:
- https://www.loom.com/share/dc91aee5c1654eec8db1b42d83bd660d
+ VIDEO: https://www.loom.com/share/dc91aee5c1654eec8db1b42d83bd660d
