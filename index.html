@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store - Fashion & Style</title>
+    <meta name="description" content="Premium clothing store featuring the latest trends in men's and women's fashion.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Clothing<br>Store</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="btn btn-primary">Sign In</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Clothing<br>Store</h1>
+            <p>New collection 2024</p>
+            <a href="#products" class="btn btn-primary btn-large">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT US ===== -->
+    <section id="about" class="about section-padding fade-in">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="High Quality">
+                    </div>
+                    <h3>High Quality</h3>
+                    <p>We source only the finest materials to ensure our clothing lasts longer and looks better.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="about-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=400&q=80" alt="New Trends">
+                    </div>
+                    <h3>New Trends</h3>
+                    <p>Stay ahead of the curve with our frequently updated collections featuring the latest styles.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="about-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=400&q=80" alt="Original Brands">
+                    </div>
+                    <h3>Original Brands</h3>
+                    <p>We partner with exclusive brands to bring you unique pieces you won't find anywhere else.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROMO BANNER ===== -->
+    <section class="promo-banner fade-in">
+        <img src="https://images.unsplash.com/photo-1558769132-cb1fac08b042?auto=format&fit=crop&w=1400&q=80" alt="Promo Background" class="promo-bg">
+        <div class="promo-overlay"></div>
+        <div class="promo-big-number">70</div>
+        <div class="promo-content">
+            <h2>SALE TO -70% LAST 2 DAYS</h2>
+            <a href="#products" class="btn btn-primary btn-large">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="features section-padding fade-in">
+        <div class="container features-container">
+            <div class="features-title">
+                <h2>Features Our<br>Store</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-tags"></i></div>
+                    <div>
+                        <h4>Best Prices</h4>
+                        <p>Affordable fashion for everyone</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-globe"></i></div>
+                    <div>
+                        <h4>Worldwide</h4>
+                        <p>Shipping to 50+ countries</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <h4>Secure Payment</h4>
+                        <p>100% secure transactions</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-gem"></i></div>
+                    <div>
+                        <h4>Premium Quality</h4>
+                        <p>Top tier materials only</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== OUR PRODUCTS ===== -->
+    <section id="products" class="products section-padding fade-in">
+        <div class="container">
+            <h2 class="section-title">Our products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1496217590455-aa63a8350eea?auto=format&fit=crop&w=600&q=80" alt="Casual Denim">
+                    </div>
+                    <div class="product-info">
+                        <h4>Casual Denim</h4>
+                        <p>$45.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=600&q=80" alt="Classic Shirt">
+                    </div>
+                    <div class="product-info">
+                        <h4>Classic Shirt</h4>
+                        <p>$35.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=600&q=80" alt="Elegant Suit">
+                    </div>
+                    <div class="product-info">
+                        <h4>Elegant Suit</h4>
+                        <p>$120.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=600&q=80" alt="Leather Jacket">
+                    </div>
+                    <div class="product-info">
+                        <h4>Leather Jacket</h4>
+                        <p>$150.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NEWSLETTER ===== -->
+    <section class="newsletter fade-in">
+        <div class="container newsletter-container">
+            <div class="newsletter-text">
+                <h2>Be the first to know!</h2>
+                <p>Subscribe to our newsletter to get latest updates and exclusive offers.</p>
+            </div>
+            <form class="newsletter-form" onsubmit="return false;">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY (BENTO GRID) ===== -->
+    <section id="gallery" class="gallery section-padding fade-in">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=800&q=80" alt="Shop Men">
+                    <div class="gallery-overlay">
+                        <a href="#" class="btn btn-white">Shop Men</a>
+                    </div>
+                </div>
+                <div class="gallery-item small">
+                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=600&q=80" alt="Shop Women">
+                    <div class="gallery-overlay">
+                        <a href="#" class="btn btn-white">Shop Women</a>
+                    </div>
+                </div>
+                <div class="gallery-item small">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80" alt="Accessories">
+                    <div class="gallery-overlay">
+                        <a href="#" class="btn btn-white">Accessories</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LATEST NEWS ===== -->
+    <section id="news" class="news section-padding fade-in">
+        <div class="container">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=500&q=80" alt="News 1">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-tag">Fashion</span>
+                        <h3>Summer Collection Preview</h3>
+                        <p>Get a sneak peek at our upcoming summer collection featuring vibrant colors and light fabrics.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=500&q=80" alt="News 2">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-tag">Style</span>
+                        <h3>Sustainable Fashion Choices</h3>
+                        <p>Learn how we are making a difference with our new line of eco-friendly and sustainable clothing.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=500&q=80" alt="News 3">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-tag">Tips</span>
+                        <h3>Styling Tips for Spring</h3>
+                        <p>Discover the best ways to mix and match your wardrobe this spring season with confidence.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LAST COLLECTION ===== -->
+    <section class="collection section-padding fade-in">
+        <div class="container">
+            <h2 class="section-title">LAST COLLECTION</h2>
+            <div class="collection-grid">
+                <div class="collection-item">
+                    <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=400&q=80" alt="Collection 1">
+                </div>
+                <div class="collection-item">
+                    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=400&q=80" alt="Collection 2">
+                </div>
+                <div class="collection-item">
+                    <img src="https://images.unsplash.com/photo-1503342394128-c104d54dba01?auto=format&fit=crop&w=400&q=80" alt="Collection 3">
+                </div>
+                <div class="collection-item">
+                    <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=400&q=80" alt="Collection 4">
+                </div>
+                <div class="collection-item">
+                    <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=400&q=80" alt="Collection 5">
+                </div>
+                <div class="collection-item">
+                    <img src="https://images.unsplash.com/photo-1520975954732-35dd22299614?auto=format&fit=crop&w=400&q=80" alt="Collection 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials section-padding fade-in">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-content">
+                <img src="https://i.pravatar.cc/150?img=47" alt="Customer Avatar" class="avatar">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="quote">"Absolutely love the quality and fit of the clothes I ordered! The delivery was super fast and the customer service was excellent. Will definitely be shopping here again!"</p>
+                <span class="author">- Jane Doe, Verified Buyer</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== OUR LOCATION ===== -->
+    <section id="contact" class="location section-padding fade-in">
+        <div class="container">
+            <h2 class="section-title">Our location</h2>
+            <div class="location-grid">
+                <div class="location-img">
+                    <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=700&q=80" alt="Store Front">
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.41941548468204!3d37.77492927975961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1609459200000!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Store Location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo footer-logo">Clothing<br>Store</a>
+                <p>Providing the best quality clothing for every occasion. Dress well, feel great.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Accessories</a>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Store Locator</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <a href="#">Customer Service</a>
+                <a href="#">Returns</a>
+                <a href="#">Shipping</a>
+                <a href="#">FAQs</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Clothing Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
