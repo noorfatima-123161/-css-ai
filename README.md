@@ -176,4 +176,5 @@ Open `index.html` in your preferred web browser.
 This project is available for educational and personal use.
 
 ## video:
-https://github.com/noorfatima-123161/-css-ai.git
+https://www.loom.com/share/dc91aee5c1654eec8db1b42d83bd660d
+
